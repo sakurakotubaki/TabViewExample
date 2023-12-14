@@ -9,13 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            // --- ここから ---
+            // タブ内に表示するビュー
+            Text("Tab 1") // 実際には Text を使うのではなく、カスタムビューとなる
+                .tabItem {
+                    // タブのラベル部分のビュー
+                    Text("Item 1")
+                }
+            // タブ内に表示するビュー
+            Text("Tab 2") // 実際には Text を使うのではなく、カスタムビューとなる
+                .tabItem {
+                    // タブのラベル部分のビュー
+                    Text("Item 2")
+                }
+            // タブ内に表示するビュー
+            Text("Tab 3") // 実際には Text を使うのではなく、カスタムビューとなる
+                .tabItem {
+                    // タブのラベル部分のビュー
+                    Text("Item 3")
+                }
+            
         }
-        .padding()
     }
 }
 
