@@ -11,6 +11,11 @@
 		B35E1B112B2BABCA00062717 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35E1B102B2BABCA00062717 /* ContentView.swift */; };
 		B35E1B132B2BABCB00062717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35E1B122B2BABCB00062717 /* Assets.xcassets */; };
 		B35E1B162B2BABCB00062717 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35E1B152B2BABCB00062717 /* Preview Assets.xcassets */; };
+		B35E1B1E2B2BAD3500062717 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35E1B1D2B2BAD3500062717 /* Data.swift */; };
+		B35E1B212B2BAEC400062717 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35E1B202B2BAEC400062717 /* Home.swift */; };
+		B35E1B232B2BAF2000062717 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35E1B222B2BAF2000062717 /* StoryView.swift */; };
+		B35E1B252B2BAF5200062717 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35E1B242B2BAF5200062717 /* FavoritesView.swift */; };
+		B35E1B272B2BAFEB00062717 /* FunFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35E1B262B2BAFEB00062717 /* FunFactsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		B35E1B102B2BABCA00062717 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B35E1B122B2BABCB00062717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B35E1B152B2BABCB00062717 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B35E1B1D2B2BAD3500062717 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		B35E1B202B2BAEC400062717 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B35E1B222B2BAF2000062717 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		B35E1B242B2BAF5200062717 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		B35E1B262B2BAFEB00062717 /* FunFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				B35E1B0E2B2BABCA00062717 /* LunchAppApp.swift */,
+				B35E1B1F2B2BAD7A00062717 /* View */,
+				B35E1B1C2B2BAD2000062717 /* Model */,
 				B35E1B102B2BABCA00062717 /* ContentView.swift */,
 				B35E1B122B2BABCB00062717 /* Assets.xcassets */,
 				B35E1B142B2BABCB00062717 /* Preview Content */,
@@ -65,6 +77,25 @@
 				B35E1B152B2BABCB00062717 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B35E1B1C2B2BAD2000062717 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B35E1B1D2B2BAD3500062717 /* Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B35E1B1F2B2BAD7A00062717 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B35E1B202B2BAEC400062717 /* Home.swift */,
+				B35E1B222B2BAF2000062717 /* StoryView.swift */,
+				B35E1B242B2BAF5200062717 /* FavoritesView.swift */,
+				B35E1B262B2BAFEB00062717 /* FunFactsView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B35E1B232B2BAF2000062717 /* StoryView.swift in Sources */,
 				B35E1B112B2BABCA00062717 /* ContentView.swift in Sources */,
+				B35E1B252B2BAF5200062717 /* FavoritesView.swift in Sources */,
+				B35E1B272B2BAFEB00062717 /* FunFactsView.swift in Sources */,
+				B35E1B1E2B2BAD3500062717 /* Data.swift in Sources */,
+				B35E1B212B2BAEC400062717 /* Home.swift in Sources */,
 				B35E1B0F2B2BABCA00062717 /* LunchAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
